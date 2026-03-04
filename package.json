@@ -1,0 +1,31 @@
+{
+  "name": "mcp-dynamic-router",
+  "version": "0.0.1-alpha.0",
+  "description": "Smart middleware that eliminates context window bloat when connecting multiple MCP servers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "mcp",
+    "anthropic",
+    "claude",
+    "model-context-protocol",
+    "tools",
+    "router",
+    "ai",
+    "llm"
+  ],
+  "author": "Dr. Raja",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.0"
+  }
+}
